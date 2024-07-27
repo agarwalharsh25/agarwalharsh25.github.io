@@ -73,3 +73,26 @@ section {
     font-size: 1.5rem;
     color: var(--accent-color);
 }
+
+.sub-section {
+    background-color: var(--secondary-backgroundcolor);
+    width: 100%;
+    padding: 2%;
+    border-radius: 16px;
+}
+
+.sub-section-header {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--primary-textcolor);
+}
+
+.sub-section-tagline {
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--secondary-textcolor);
+}
+
+.highlights {
+    background-color: var(--primary-backgroundcolor);
+}
