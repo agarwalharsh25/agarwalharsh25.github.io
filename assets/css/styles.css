@@ -1,0 +1,75 @@
+.light-theme {
+    --primary-backgroundcolor: #FFFFFF;
+    --secondary-backgroundcolor: #F2F1EC;
+    --primary-textcolor: #333333;
+    --secondary-textcolor: #555555;
+    --accent-color: #008080;
+}
+
+.dark-theme {
+    --primary-backgroundcolor: #007bff;
+    --secondary-backgroundcolor: #6c757d;
+    --primary-textcolor: #007bff;
+    --secondary-textcolor: #6c757d;
+    --accent-color: #007bff;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: var(--primary-backgroundcolor);
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    padding: 5%;
+    padding-top: 16px;
+}
+
+.intro-text {
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--primary-textcolor);
+}
+
+.intro-tagline {
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: var(--secondary-textcolor);
+}
+
+.highlight {
+    color: var(--accent-color);
+}
+
+section {
+    padding: 5%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.research-patents {
+    background-color: var(--secondary-backgroundcolor);
+}
+
+.research {
+    background-color: var(--primary-backgroundcolor);
+    width: 100%;
+    padding: 5%;
+    border-radius: 16px;
+}
+
+.patents {
+    background-color: var(--primary-backgroundcolor);
+    width: 100%;
+    padding: 5%;
+    border-radius: 16px;
+}
+
+.section-header {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--accent-color);
+}
