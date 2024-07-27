@@ -96,3 +96,59 @@ section {
 .highlights {
     background-color: var(--primary-backgroundcolor);
 }
+
+.highlight-section {
+    background-color: var(--secondary-backgroundcolor);
+    width: 100%;
+    padding: 0px;
+    border-radius: 32px;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+}
+
+.highlight-section-headings {
+    padding: 5%;
+    padding-bottom: 3%;
+}
+
+.highlight-section-topbar {
+    width: 100%;
+    padding: 5%;
+    padding-bottom: 2%;
+}
+
+.highlight-section-topbar-text {
+    float: left;
+    text-align: left;
+    padding: 1.5%;
+    background-color: var(--primary-backgroundcolor);
+    border-radius: 16px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--secondary-textcolor);
+}
+
+.highlight-section-topbar-icon i {
+    float: right;
+    text-align: right;
+    padding: 1.5%;
+    background-color: var(--primary-backgroundcolor);
+    border-radius: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--secondary-textcolor);
+}
+
+.highlight-section-header {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--primary-textcolor);
+}
+
+.highlight-section-tagline {
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: var(--secondary-textcolor);
+}
