@@ -81,6 +81,16 @@ a:visited {
     color: var(--accent-color);
 }
 
+.social-icon {
+    display: inline-block;
+    font-size: 1.25rem;
+}
+
+.social-icon:hover {
+    color: var(--accent-color);
+    font-weight: 600;
+}
+
 section {
     padding-left: 5%;
     padding-right: 5%;
@@ -201,8 +211,7 @@ section row {
 }
 
 .footer-info-name {
-    font-weight: 700;
-    font-size: 0.9rem;
+    font-weight: 600;
     color: var(--accent-color);
 }
 
