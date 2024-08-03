@@ -7,20 +7,21 @@
 }
 
 .dark-theme {
-    --primary-backgroundcolor: #007bff;
-    --secondary-backgroundcolor: #6c757d;
-    --primary-textcolor: #007bff;
-    --secondary-textcolor: #6c757d;
-    --accent-color: #007bff;
+    --primary-backgroundcolor: #181818;
+    --secondary-backgroundcolor: #1F1F1F;
+    --primary-textcolor: #E0E0E0;
+    --secondary-textcolor: #B0B0B0;
+    --accent-color: #66CCCC;
 }
 
-body {
+html, body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     background-color: var(--primary-backgroundcolor);
     min-width: 100%;
     max-width: 100%;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+    color: var(--primary-textcolor);
 }
 
 a {
@@ -38,9 +39,30 @@ a:visited {
     color: inherit;
 }
 
-header {
+.topbar {
     padding: 5%;
-    padding-top: 16px;
+    padding-top: 3%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.topbar-name {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--accent-color);
+}
+
+.topbar-menu:hover {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--accent-color);
+}
+
+#topbar-theme-icon:hover {
+    font-weight: 600;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
 
 .intro-text {
@@ -60,9 +82,14 @@ header {
 }
 
 section {
-    padding: 5%;
-    padding-top: 8%;
-    padding-bottom: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+section row {
+    margin: 0px !important;
 }
 
 .research-patents {
@@ -97,14 +124,11 @@ section {
 }
 
 .sub-section:hover {
-    /* opacity: 0.75; */
-    /* color: var(--accent-color); */
-    /* background-color: var(--accent-color); */
     transform: scale(1.025);
 }
 
 .sub-section-header {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1.25rem;
     color: var(--primary-textcolor);
 }
@@ -173,6 +197,7 @@ section {
     background-color: var(--primary-backgroundcolor);
     font-size: 0.8rem;
     text-align: center;
+    padding-bottom: 3%;
 }
 
 .footer-info-name {
